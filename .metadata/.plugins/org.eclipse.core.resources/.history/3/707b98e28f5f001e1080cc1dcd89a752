@@ -1,0 +1,9 @@
+package stepDefinitions;
+
+public class Hooks {
+
+	@before
+	public void beforescenario() {
+		
+	}
+}

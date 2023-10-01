@@ -1,0 +1,16 @@
+package resources;
+
+public enum APIEnumResources {
+
+	addPlaceAPI("/maps/api/place/add/json"),
+	getPlaceAPI("/maps/api/place/get/json"),
+	deletePLaceApI("/maps/api/place/delete/json");
+	private String resource;
+	APIEnumResources(String resource) {
+	}
+	
+	public String getResource() {
+		
+	}
+	
+}

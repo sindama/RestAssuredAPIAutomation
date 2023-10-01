@@ -1,0 +1,29 @@
+package resources;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import pojo.AddPlace;
+import pojo.Location;
+
+public class TestDataBuild {
+
+	public AddPlace addplacePayload() {
+		 AddPlace a=new AddPlace();
+	      a.setAccuracy(50);
+	      a.setAddress("29, side layout, cohen 09");
+	      a.setLnaguage("English");
+	      a.setPhone_number("000999");
+	      a.setWebsite("www.google.com");
+	      a.setName("Supriya Sindam");
+	      List<String> l=new ArrayList<String>();
+	      l.add("Shoe Park");
+	      l.add("Shop");
+	      a.setTypes(l);
+	      Location loc=new Location();
+	      loc.setLat(-33.1234);
+	      loc.setLng(33.456);
+	      a.setLocation(loc);
+	      return a;
+	}
+}

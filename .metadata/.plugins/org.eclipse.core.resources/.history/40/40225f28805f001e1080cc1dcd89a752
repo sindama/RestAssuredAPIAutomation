@@ -1,0 +1,15 @@
+package resources;
+
+public enum APIEnumResources {
+private String resource;
+	AddPlaceAPI("/maps/api/place/add/json"),
+	GetPlaceAPI("/maps/api/place/get/json"),
+	DeletePLaceApI("/maps/api/place/delete/json");
+
+	APIEnumResources(String resource) {
+		this.resource=resource// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+}

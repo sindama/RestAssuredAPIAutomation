@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MyTestRunner" project="APIFramework" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumber.Options.TestRunner" time="6.648">
+    <testsuite name="Validating Place API's" time="6.648">
+      <testcase name="Verify if Delete functionality is working" classname="Validating Place API's" time="6.648"/>
+    </testsuite>
+  </testsuite>
+</testrun>

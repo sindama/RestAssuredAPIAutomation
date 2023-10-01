@@ -1,0 +1,10 @@
+package resources;
+
+public enum APIEnumResources {
+
+	AddPLaceAPI("/maps/api/place/add/json"),
+	GetPlaceAPI("/maps/api/place/get/json"),
+	DeletePLaceApI("");
+	
+	
+}
